@@ -11,9 +11,9 @@ def pascal_triangle(n):
     triangle = [[1], [1, 1]]
 
     if n <= 0:
-        return []
+        return [[]]
     if n == 1:
-        return triangle[0]
+        return [[1]]
     if n == 2:
         return triangle
     if n > 2:
